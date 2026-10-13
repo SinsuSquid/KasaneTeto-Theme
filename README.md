@@ -1,6 +1,6 @@
-# Kasane Teto VS Code Theme (重音テト) 🥖
+# Kasane Teto (重音テト) Theme Suite 🥖
 
-A vibrant dark VS Code theme inspired by **Kasane Teto** (UTAU / Synthesizer V).
+A theme suite inspired by **Kasane Teto** (UTAU / Synthesizer V).
 
 <p align="center">
   <img src="assets/icon.png" alt="Kasane Teto Icon" width="128" />
@@ -23,7 +23,7 @@ A vibrant dark VS Code theme inspired by **Kasane Teto** (UTAU / Synthesizer V).
 
 ---
 
-## 🚀 Installation
+## 🚀 VS Code Theme
 
 ### Option 1: VS Code Marketplace
 Install directly from the [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=SinsuSquid.kasane-teto-theme) or via command line:
