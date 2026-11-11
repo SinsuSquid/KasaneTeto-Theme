@@ -198,3 +198,36 @@ Or apply directly via the Kitty theme kitten:
 ```bash
 kitty +kitten themes --reload-in=all Kasane\ Teto
 ```
+
+---
+
+## 🎵 CAVA Audio Visualizer Theme
+
+A companion audio visualizer theme for **CAVA** featuring an 8-step gradient transitioning from Soft Pastel Pink through Warm Rose and Crimson to Kasane Teto's signature red peak! 🥖🎶
+
+### Quick Setup
+
+#### Option 1: Add to `~/.config/cava/config` (Recommended)
+Replace or update the `[color]` section in your `~/.config/cava/config`:
+```ini
+[color]
+; background = '#1e2228'
+foreground = '#ff0045'
+gradient = 1
+gradient_count = 8
+gradient_color_1 = '#eda7ba'
+gradient_color_2 = '#f291aa'
+gradient_color_3 = '#f888a7'
+gradient_color_4 = '#ff7597'
+gradient_color_5 = '#ff5a85'
+gradient_color_6 = '#ff336a'
+gradient_color_7 = '#ff1a55'
+gradient_color_8 = '#ff0045'
+```
+
+#### Option 2: Modular Symlink
+Link the theme into your CAVA themes directory:
+```bash
+mkdir -p ~/.config/cava/themes
+ln -sfn "$(pwd)/cava/kasane-teto" ~/.config/cava/themes/kasane-teto
+```

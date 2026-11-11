@@ -1,0 +1,33 @@
+## Kasane Teto Theme for CAVA 🥖 (重音テト)
+## Inspired by the Chimera Diva Kasane Teto (UTAU / Synthesizer V)
+## Colors:
+##   #ff0045 - Teto Red (Point Accent / Peak)
+##   #d924d5 - Vibrant Magenta
+##   #eda7ba - Soft Pastel Pink
+##   #1e2228 - Deep Slate
+
+[color]
+
+# Background color: uncomment '#1e2228' for deep slate, or leave commented for transparent / terminal default
+; background = '#1e2228'
+
+# Foreground color (used if gradient is disabled)
+foreground = '#ff0045'
+
+# Gradient mode (1 = on, 0 = off)
+gradient = 1
+gradient_count = 8
+
+# Kasane Teto 8-Step Gradient (Bottom -> Top):
+# 1-2: Soft Pastel Pink (Quiet bass & subtle lows)
+# 3-5: Salmon & Warm Pink (Grooving mids)
+# 6-7: Raspberry & Deep Fiery Crimson (Rising high energy)
+# 8:   Signature Teto Red (Peak crescendo! 🥖🔥)
+gradient_color_1 = '#eda7ba'
+gradient_color_2 = '#f291aa'
+gradient_color_3 = '#f888a7'
+gradient_color_4 = '#ff7597'
+gradient_color_5 = '#ff5a85'
+gradient_color_6 = '#ff336a'
+gradient_color_7 = '#ff1a55'
+gradient_color_8 = '#ff0045'
