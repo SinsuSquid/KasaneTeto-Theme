@@ -117,13 +117,15 @@ hi NERDTreeUp        guifg=#4d5663 ctermfg=240
 hi NERDTreeCWD       guifg=#ff0045 ctermfg=197 gui=bold
 
 " --- Neovim Treesitter & LSP ---
-hi @function         guifg=#ff0045 ctermfg=197 gui=bold
-hi @function.call    guifg=#ff0045 ctermfg=197
-hi @method           guifg=#ff0045 ctermfg=197
-hi @keyword          guifg=#d924d5 ctermfg=164 gui=bold
-hi @string           guifg=#eda7ba ctermfg=217
-hi @type             guifg=#f888a7 ctermfg=211 gui=bold
-hi @variable         guifg=#f0eef5 ctermfg=255
-hi @constant         guifg=#ff5a85 ctermfg=204
-hi @tag              guifg=#ff0045 ctermfg=197
-hi @tag.attribute    guifg=#eda7ba ctermfg=217 gui=italic
+if has('nvim')
+  hi @function         guifg=#ff0045 ctermfg=197 gui=bold
+  hi @function.call    guifg=#ff0045 ctermfg=197
+  hi @method           guifg=#ff0045 ctermfg=197
+  hi @keyword          guifg=#d924d5 ctermfg=164 gui=bold
+  hi @string           guifg=#eda7ba ctermfg=217
+  hi @type             guifg=#f888a7 ctermfg=211 gui=bold
+  hi @variable         guifg=#f0eef5 ctermfg=255
+  hi @constant         guifg=#ff5a85 ctermfg=204
+  hi @tag              guifg=#ff0045 ctermfg=197
+  hi @tag.attribute    guifg=#eda7ba ctermfg=217 gui=italic
+endif
